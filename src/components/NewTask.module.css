@@ -1,0 +1,39 @@
+.newtask {
+  display: flex;
+  gap: 0.5rem;
+}
+.newtask input[type="text"] {
+  background: var(--gray-500);
+  padding: 1rem;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  color: var(--gray-100);
+}
+.newtask input[type="text"]::placeholder {
+  font-family: var(--font-inter);
+  color: var(--gray-300);
+  font-size: 1rem;
+}
+
+.newtask input[type="text"]:focus{
+    border: 1px solid var(--purple-dark);
+}
+
+.newtask button {
+  padding: 1rem;
+  width: auto;
+  color: var(--gray-100);
+  background: var(--blue-dark);
+  border: 0;
+  display: flex;
+  gap: 0.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background 0.1s;
+}
+.newtask button:hover {
+  background: var(--blue);
+}

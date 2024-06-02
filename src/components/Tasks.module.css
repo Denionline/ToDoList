@@ -1,0 +1,37 @@
+.tasks {
+  margin-top: 4rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.header > div {
+  display: flex;
+  gap: 0.5rem;
+}
+.header > div > strong {
+  font-size: 0.875rem;
+}
+.header > div > span {
+  background: var(--gray-400);
+  border-radius: 8px;
+  padding: 0.1rem 0.5rem;
+  color: var(--gray-100);
+  font-size: 0.8rem;
+}
+
+.createdTasks > strong {
+  color: var(--blue);
+}
+.completed > strong {
+  color: var(--purple);
+}
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}

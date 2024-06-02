@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.content {
+  width: 46rem;
+  margin: -1.5rem 0;
+}
